@@ -1,0 +1,223 @@
+body,html,header,nav,article,aside,section,footer,ul,ol,li,div{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+@font-face{
+    font-family: yenifont;
+    src: url(font/Beatific\ Margella\ Regular-Italic.otf);
+    src: url(font/Beatific\ Margella\ Regular-Italic.otf);
+}
+
+#conteiner{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    border: 1px solid #000000;
+}
+
+header{width:100%;
+       height: 150px;
+       text-align: center;
+       font-size: 100px;
+       margin: 0 auto;
+}
+nav{width: 100%;
+    height: 50px;
+    margin: 0 0 20px 0;
+    clear: both;
+    background-color: #ec2502c9 ;
+    border-radius: 12px;
+
+}
+
+nav ul li a{
+    float: left;
+    display: block;
+    width: 158.4px;
+    height: 35px;
+    padding: 15px 0 0 0 ;
+    margin: 0 10px 0 0;
+    text-align: center;
+    font-size: 17px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: yenifont;
+    border-radius: 12px;
+}
+
+nav ul li a:hover{
+    background-color: #ffffff;
+    color: #ec2502c9;
+
+}
+
+article{ width: 100%;
+         height: 400px;
+         margin: 0 0 10px 0;
+         
+}
+
+#slider{width: 100%; 
+    height: 371px; 
+    cursor: pointer;}
+#altic{ width: 228px ; 
+    height: 39px; 
+    margin: 0 auto;}
+#slideralt{width: 100%; 
+       height: 30px; 
+       cursor: pointer; 
+       border-top: none;  
+       background: #ec2502c9;}
+#altic ul{list-style: none; 
+    margin: 0; 
+    padding: 0;}     
+#altic ul li{float: left; 
+         display: block; 
+         border-radius: 14px;
+         width: 38px; 
+         height: 29px; 
+         line-height: 31px; 
+         text-align: center; 
+         color: black; 
+         background-color: #ec2502c9;}   
+#altic ul li:hover{background:#ec2502c9;}    
+
+#img1{ width: 240px;
+    height: 250px;
+    float: left;
+    margin: 1 5px 10px 5px;
+    border: 1px solid #000000;
+    
+}
+
+#img2{ width: 240px;
+    height: 250px;
+    float: left;
+    margin: 0 5px 10px 4px;
+    border: 1px solid #000000;
+}
+
+#img3{ width: 240px;
+    height: 250px;
+    float: left;
+    margin: 0 5px 10px 4px;
+    border: 1px solid #000000;
+}
+
+#img4{ width: 240px;
+    height: 250px;
+    float: left;
+    margin: 0 5px 10px 4px;
+    border: 1px solid #000000;
+}
+
+.box{width: 240px;
+     height: 40px;
+     text-align: center;
+     font-family: yenifont;
+     font-size: 22px;
+     padding: 10px 0 0 0;
+     cursor: pointer;
+}
+
+.box:hover{
+    background-color: #ec2502c9 ;
+    color: #ffffff;
+}
+.ledtabela:hover{color: #ffffff;}
+#bottommenu1{ width: 33%;
+    height: 400px;
+    clear: both;
+    float: left;
+    margin: 0 10px 0 15;
+    padding: 0 0 0 0px;
+
+}
+
+.bottommenu{
+    display: flex;
+    clear: both;
+}
+
+
+#bottommenu1 .conteiner{
+    display: flex;
+    flex-direction: column;
+}
+
+#bottommenu1 .conteiner .ledtabela{
+    font-size: 40px;
+    padding: 15px;
+    font-family: yenifont;
+    border-bottom: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+#bottommenu1 .conteiner .ledtabela:hover{
+background-color: #ec2502c9;
+}
+
+#bottommenu1 i{
+    color: #ec2502c9;
+}
+
+
+
+footer{ width: 100%;
+        height: 150px;
+        clear: both;
+        margin: auto;
+}
+
+hr{
+    width: 100%;
+    border: 1px solid black;
+    margin: 20px 0;
+}
+
+#galery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#galery .boxes{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#galery .boxes .box{
+    width: 240px;
+    height: 250px;
+    float: left;
+    margin: 0 5px 10px 4px;
+    border: 1px solid #000000;
+}
+
+#galery h3 {
+    font-family: yenifont;
+    font-size: 40px;
+    color: #ec2502c9;
+}
+
+#about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about h3{
+    font-family: yenifont;
+    font-size: 40px;
+    color: #ec2502c9;
+}
+
+#about p{
+    padding: 20px 70px;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-family: yenifont;
+}
